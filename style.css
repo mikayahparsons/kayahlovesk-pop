@@ -1,0 +1,102 @@
+/* 🌸 GLOBAL STYLING */
+body {
+    font-family: "Playfair", "EB Garamond", serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f1fb; /* light lavender */
+    color: #2b1338; /* deep purple for accessibility */
+}
+
+/* 🎀 HEADER */
+header {
+    background-color: #f5d1e8; /* pastel pink */
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #e7b3da; /* definition */
+}
+
+/* ✨ NAV */
+nav {
+    background-color: #f0d8fb; /* pastel lavender */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    width: auto;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4d1966; /* rich plum */
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #a9379b; /* brighter purple on hover */
+    text-decoration: underline;
+}
+
+/* 📌 MAIN CONTENT */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 20px 25px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(84, 30, 104, 0.15);
+}
+
+/* 🎤 HEADINGS */
+h1 {
+    text-align: center;
+    font-family: "Playfair", serif;
+    color: #4d1966;
+    margin-top: 0;
+}
+
+h2 {
+    color: #6a2c91;
+    margin-top: 30px;
+    border-bottom: 2px solid #e7b3da;
+    padding-bottom: 5px;
+}
+
+/* 📝 PARAGRAPHS */
+p {
+    line-height: 1.7;
+}
+
+/* ⭐ LIST STYLING */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    display: list-item;
+    width: auto;
+    margin: 6px 0;
+}
+
+/* 💖 FOOTER */
+footer {
+    background-color: #f5d1e8;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    border-top: 3px solid #e7b3da;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
